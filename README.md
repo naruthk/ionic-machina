@@ -2,6 +2,9 @@
 
 Personal mobile app that I am working on to help simplify my everyday actions. Nothing serious.
 
+Current version: v 0.0.2
+Build with Ionic framework.
+
 ## To build it,
 
 ```bash
