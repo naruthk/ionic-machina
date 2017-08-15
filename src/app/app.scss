@@ -19,7 +19,16 @@ ion-header {
     text-align: center;
 }
 
+ion-card {
+    margin-bottom: 30px;
+}
+
 ion-content {
     font-size: 12pt;
     font-weight: 300;
+}
+
+ion-nav ion-title {
+    line-height: 50px;
+    font-size: 60pt;
 }

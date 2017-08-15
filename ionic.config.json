@@ -1,6 +1,8 @@
 {
   "name": "machina",
-  "app_id": "",
+  "app_id": "1a5077d5",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }

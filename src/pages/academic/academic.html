@@ -1,10 +1,17 @@
 <ion-header>
-  <ion-navbar color="dark">
-    <ion-title>
-      Academic
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+        <ion-navbar color="dark">
+            <ion-grid>
+                <ion-row>
+                    <ion-col col-2>
+                        <ion-title>M</ion-title>
+                    </ion-col>
+                    <ion-col col-10>
+                        <ion-searchbar></ion-searchbar>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>
+        </ion-navbar>
+    </ion-header>
 
 <ion-content padding>
     <ion-card style="margin-bottom: 30px;">
@@ -46,7 +53,7 @@
         <ion-card-content>
             <ion-row>
                 <ion-col>
-                    <b>COM 375 A</b>
+                    <b>COM<br>375 A</b>
                 </ion-col>
                 <ion-col col-8>
                     <b>Communication Ethics</b>
@@ -56,7 +63,7 @@
             </ion-row>
             <ion-row>
                 <ion-col>
-                    <b>COM 496 A</b>
+                    <b>COM<br>496 A</b>
                 </ion-col>
                 <ion-col col-8>
                     <b>Honors Seminar</b>
@@ -66,7 +73,7 @@
             </ion-row>
             <ion-row>
                 <ion-col>
-                    <b>GWSS 262 A</b>
+                    <b>GWSS<br>262 A</b>
                 </ion-col>
                 <ion-col col-8>
                     <b>Gender and Sport</b>
@@ -86,15 +93,55 @@
         </ion-card-content>
     </ion-card>
     
-    <div text-center padding-top>
+    <ion-card>
+        <ion-card-header>
+            <b>External Information</b>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-row>
+                <ion-col>
+                    <b>COM<br>375 A</b>
+                </ion-col>
+                <ion-col col-8>
+                    <b>Communication Ethics</b>
+                    <br>Instructor's Name
+                    <br>
+                    <button ion-button icon-left small clear full>
+                        <ion-icon name="mail"></ion-icon>
+                        Email address
+                    </button>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <b>COM<br>496 A</b>
+                </ion-col>
+                <ion-col col-8>
+                    <b>Honors Seminar</b>
+                    <br>Instructor's Name
+                    <br>
+                    <button ion-button icon-left small clear full>
+                            <ion-icon name="mail"></ion-icon>
+                            Email address
+                        </button>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <b>GWSS<br>262 A</b>
+                </ion-col>
+                <ion-col col-8>
+                    <b>Gender and Sport</b>
+                    <br>Instructor's Name
+                    <br>
+                    <button ion-button icon-left small clear full>
+                        <ion-icon name="mail"></ion-icon>
+                        Email address
+                    </button>
+                </ion-col>
+            </ion-row>
+        </ion-card-content>
+    </ion-card>
 
-        <hr>
-
-        <p>Version 0.02 (Build mode)</p>
-        <p>Copyrighted 2017. MIT License.</p>
-        <p>Distribution of this app and its content without proven permission is strictly prohibited.
-    
-    </div>
-    
-    </ion-content>
+</ion-content>
     
