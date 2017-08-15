@@ -1,8 +1,8 @@
 {
   "name": "machina",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "author": "Naruth Kongurai",
+  "homepage": "http://students.washington.edu/naruthk",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -34,5 +34,5 @@
     "@ionic/app-scripts": "2.1.3",
     "typescript": "2.3.4"
   },
-  "description": "An Ionic project"
+  "description": "Less stress, less coffee, more productivity"
 }
