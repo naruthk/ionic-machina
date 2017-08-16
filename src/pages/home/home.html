@@ -1,136 +1,105 @@
-<ion-header>
+<!-- <ion-header>
     <ion-navbar color="dark">
         <ion-grid>
             <ion-row>
-                <ion-col col-2>
-                    <img src="assets/favicons/mstile-150x150.png" />
+                <ion-col>
+                    <ion-icon name="menu" class="greeting-icons" color="light"></ion-icon>
                 </ion-col>
-                <ion-col col-10>
-                    <ion-searchbar></ion-searchbar>
+                <ion-col text-right>
+                    <ion-title>M.</ion-title>
                 </ion-col>
             </ion-row>
         </ion-grid>
     </ion-navbar>
-</ion-header>
+</ion-header> -->
 
-<ion-content padding>
-    <ion-card>
-        <ion-item>
-            <ion-avatar item-start>
-                <img src="assets/naruth.jpg">
-            </ion-avatar>
-            <h2>Naruth Kongurai</h2>
-            <p>Since August 2017</p>
-        </ion-item>
-        <ion-card-header>
-            <b>Good to see you again, Sam</b>
-        </ion-card-header>
-        <ion-card-content>
-            <p>School is about to start soon. Get enough sleep. Make sure to get all the time you need before all the hard work resumes.</p>
-            <hr>
+<ion-content>
+    <ion-toolbar color="dark">
+        <ion-grid>
             <ion-row>
                 <ion-col>
-                    <ion-icon name="flame" class="greeting-icons"></ion-icon>
+                    <ion-icon name="menu" class="greeting-icons" color="light"></ion-icon>
+                </ion-col>
+                <ion-col text-right>
+                    <ion-title color="light">M.</ion-title>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-toolbar>
+    <div padding>
+        <div class="heading" padding-top>
+            <h2>Overview</h2>
+        </div>
+        <div padding>
+            <ion-row>
+                <ion-col text-center>
+                    <ion-icon name="flame" class="greeting-icons" color="icon-light" text-right></ion-icon>
                 </ion-col>
                 <ion-col col-10 class="greeting-content">
                     <b>672 calories</b> burned today
                 </ion-col>
             </ion-row>
             <ion-row>
-                    <ion-col>
-                        <ion-icon name="calendar" class="greeting-icons"></ion-icon>
-                    </ion-col>
-                    <ion-col col-10 class="greeting-content">
-                        <b>140 days</b> until anniversary (February 7th)
-                    </ion-col>
-                </ion-row>
-            <ion-row>
-                <ion-col>
-                    <ion-icon name="contact" class="greeting-icons"></ion-icon>
+                <ion-col text-center>
+                    <ion-icon name="infinite" class="greeting-icons" color="icon-light" text-right></ion-icon>
                 </ion-col>
                 <ion-col col-10 class="greeting-content">
-                    naruthk@uw.edu
-                    <br>
-                    206-201-9256
+                    <b>140 days</b> until anniversary (February 7th)
                 </ion-col>
             </ion-row>
-        </ion-card-content>
-    </ion-card>
-
-    <ion-card>
-        <ion-card-header>
-            <b>Here are your reminders for today</b>
-        </ion-card-header>
-        <ion-card-content>
+            <hr>
             <ion-row>
-                <ion-col>
-                    <ion-icon name="alarm" class="greeting-icons"></ion-icon>
+                <ion-col text-center>
+                    <ion-icon name="calendar" class="greeting-icons" color="icon-light" text-right></ion-icon>
                 </ion-col>
                 <ion-col col-10>
-                    <p><b>1:00pm</b> meeting with <b>Joshua Hodge</b></p>
-                    <p><b>7:30pm</b> dinner with Gift</p>
-                    <p><b>10:30pm</b> study for COM midterm</p>
-                </ion-col>
-            </ion-row>
-        </ion-card-content>
-    </ion-card>
-
-    <ion-card>
-        <ion-card-header>
-            <b>Your District Market Shifts</b>
-        </ion-card-header>
-        <ion-card-content>
-            <ion-row>
-                <ion-col>
-                    <ion-icon name="calendar" class="greeting-icons"></ion-icon>
-                </ion-col>
-                <ion-col col-10>
+                    Your District Market Shifts
                     <p><b>9:30am - 12:00pm (Mon)</b> - Cashier</p>
                     <p><b>1:30pm - 4:00pm (Wed)</b> - Grocery Assistant</p>
                     <p><b>9:30am - 12:00pm (Thurs)</b> - Cashier</p>
                 </ion-col>
             </ion-row>
-        </ion-card-content>
-    </ion-card>
+        </div>
 
-    <div class="card-background-page">
+        <div class="card-background-page">
 
-        <ion-card>
-            <img src="assets/background/1.jpg"/>
-            <div class="card-title">Academic</div>
-            <div class="card-subtitle">
-                <b>University of Washington</b>
-            </div>
-            <p padding>Classes, Schedules, Final Exam</p>
-        </ion-card>
+            <ion-card>
+                <img src="assets/background/1.jpg"/>
+                <div class="card-title">Academic</div>
+                <div class="card-subtitle">
+                    <b>University of Washington</b>
+                </div>
+                <p padding>Classes, Schedules, Final Exam</p>
+            </ion-card>
 
-        <ion-card>
-            <img src="assets/background/2.jpg"/>
-            <div class="card-title">Sports</div>
-            <div class="card-subtitle">
-                <b>Liverpool</b>
-            </div>
-            <p padding>Matches Report, News, Scoreline</p>
-        </ion-card>
+            <ion-card>
+                <img src="assets/background/2.jpg"/>
+                <div class="card-title">Sports</div>
+                <div class="card-subtitle">
+                    <b>Liverpool</b>
+                </div>
+                <p padding>Matches Report, News, Scoreline</p>
+            </ion-card>
 
-        <ion-card>
-            <img src="assets/background/3.jpg"/>
-            <div class="card-title">Movies</div>
-            <div class="card-subtitle">
-                <b>IMDB | Rotton Tomatoes</b>
-            </div>
-            <p padding>Ratings, Trailers, Showtime</p>
-        </ion-card>
+            <ion-card>
+                <img src="assets/background/3.jpg"/>
+                <div class="card-title">Movies</div>
+                <div class="card-subtitle">
+                    <b>IMDB | Rotton Tomatoes</b>
+                </div>
+                <p padding>Ratings, Trailers, Showtime</p>
+            </ion-card>
 
-        <ion-card>
-            <img src="assets/background/4.jpg"/>
-            <div class="card-title">Information</div>
-            <div class="card-subtitle">
-                <b>Contacts</b>
-            </div>
-            <p padding>Favorites, Birthdays, Social Profile</p>
-        </ion-card>
+            <ion-card>
+                <img src="assets/background/4.jpg"/>
+                <div class="card-title">Information</div>
+                <div class="card-subtitle">
+                    <b>Contacts</b>
+                </div>
+                <p padding>Favorites, Birthdays, Social Profile</p>
+            </ion-card>
 
+        </div>
     </div>
 
 </ion-content>
