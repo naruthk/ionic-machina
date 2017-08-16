@@ -15,10 +15,6 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-ion-header {
-    text-align: center;
-}
-
 ion-card {
     margin-bottom: 30px;
 }
@@ -26,9 +22,4 @@ ion-card {
 ion-content {
     font-size: 12pt;
     font-weight: 300;
-}
-
-ion-nav ion-title {
-    line-height: 50px;
-    font-size: 60pt;
 }

@@ -3,7 +3,7 @@
         <ion-grid>
             <ion-row>
                 <ion-col col-2>
-                    <ion-title>M.</ion-title>
+                    <img src="assets/favicons/mstile-150x150.png" />
                 </ion-col>
                 <ion-col col-10>
                     <ion-searchbar></ion-searchbar>
@@ -14,28 +14,20 @@
 </ion-header>
 
 <ion-content padding>
-    <ion-card style="margin-bottom: 30px;">
-            <ion-item>
-                    <ion-avatar item-start>
-                      <img src="assets/naruth.jpg">
-                    </ion-avatar>
-                    <h2>Naruth Kongurai</h2>
-                    <p>Since August 2017</p>
-                  </ion-item>
+    <ion-card>
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="assets/naruth.jpg">
+            </ion-avatar>
+            <h2>Naruth Kongurai</h2>
+            <p>Since August 2017</p>
+        </ion-item>
         <ion-card-header>
             <b>Good to see you again, Sam</b>
         </ion-card-header>
         <ion-card-content>
             <p>School is about to start soon. Get enough sleep. Make sure to get all the time you need before all the hard work resumes.</p>
             <hr>
-            <ion-row>
-                <ion-col>
-                    <ion-icon name="alarm" class="greeting-icons"></ion-icon>
-                </ion-col>
-                <ion-col col-10>
-                    A scheduled meeting at <b>1PM today</b> with <b>Joshua Hodge</b>
-                </ion-col>
-            </ion-row>
             <ion-row>
                 <ion-col>
                     <ion-icon name="flame" class="greeting-icons"></ion-icon>
@@ -65,17 +57,51 @@
         </ion-card-content>
     </ion-card>
 
+    <ion-card>
+        <ion-card-header>
+            <b>Here are your reminders for today</b>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-row>
+                <ion-col>
+                    <ion-icon name="alarm" class="greeting-icons"></ion-icon>
+                </ion-col>
+                <ion-col col-10>
+                    <p><b>1:00pm</b> meeting with <b>Joshua Hodge</b></p>
+                    <p><b>7:30pm</b> dinner with Gift</p>
+                    <p><b>10:30pm</b> study for COM midterm</p>
+                </ion-col>
+            </ion-row>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <b>Your District Market Shifts</b>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-row>
+                <ion-col>
+                    <ion-icon name="calendar" class="greeting-icons"></ion-icon>
+                </ion-col>
+                <ion-col col-10>
+                    <p><b>9:30am - 12:00pm (Mon)</b> - Cashier</p>
+                    <p><b>1:30pm - 4:00pm (Wed)</b> - Grocery Assistant</p>
+                    <p><b>9:30am - 12:00pm (Thurs)</b> - Cashier</p>
+                </ion-col>
+            </ion-row>
+        </ion-card-content>
+    </ion-card>
+
     <div class="card-background-page">
 
         <ion-card>
-            <ion-fab right top>
-            </ion-fab>
             <img src="assets/background/1.jpg"/>
             <div class="card-title">Academic</div>
             <div class="card-subtitle">
                 <b>University of Washington</b>
             </div>
-            <p padding>Classes, Schedules, Final Exam<p>
+            <p padding>Classes, Schedules, Final Exam</p>
         </ion-card>
 
         <ion-card>
@@ -84,7 +110,7 @@
             <div class="card-subtitle">
                 <b>Liverpool</b>
             </div>
-            <p padding>Matches Report, News, Scoreline<p>
+            <p padding>Matches Report, News, Scoreline</p>
         </ion-card>
 
         <ion-card>
@@ -93,7 +119,7 @@
             <div class="card-subtitle">
                 <b>IMDB | Rotton Tomatoes</b>
             </div>
-            <p padding>Ratings, Trailers, Showtime<p>
+            <p padding>Ratings, Trailers, Showtime</p>
         </ion-card>
 
         <ion-card>
@@ -102,7 +128,7 @@
             <div class="card-subtitle">
                 <b>Contacts</b>
             </div>
-            <p padding>Favorites, Birthdays, Social Profile<p>
+            <p padding>Favorites, Birthdays, Social Profile</p>
         </ion-card>
 
     </div>
